@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		FBA836622D68DF710041A2C7 /* mi_primera_app_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA836612D68DF710041A2C7 /* mi_primera_app_swiftuiApp.swift */; };
-		FBA836642D68DF710041A2C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA836632D68DF710041A2C7 /* ContentView.swift */; };
 		FBA836662D68DF720041A2C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA836652D68DF720041A2C7 /* Assets.xcassets */; };
 		FBA836692D68DF720041A2C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA836682D68DF720041A2C7 /* Preview Assets.xcassets */; };
+		FBF15EA42D6CD41B00B21FCC /* mi_primera_pantalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF15EA32D6CD41B00B21FCC /* mi_primera_pantalla.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FBA8365E2D68DF710041A2C7 /* mi_primera_app_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mi_primera_app_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA836612D68DF710041A2C7 /* mi_primera_app_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mi_primera_app_swiftuiApp.swift; sourceTree = "<group>"; };
-		FBA836632D68DF710041A2C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBA836652D68DF720041A2C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA836682D68DF720041A2C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBF15EA32D6CD41B00B21FCC /* mi_primera_pantalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mi_primera_pantalla.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				FBA836612D68DF710041A2C7 /* mi_primera_app_swiftuiApp.swift */,
-				FBA836632D68DF710041A2C7 /* ContentView.swift */,
 				FBA836652D68DF720041A2C7 /* Assets.xcassets */,
 				FBA836672D68DF720041A2C7 /* Preview Content */,
+				FBF15EA32D6CD41B00B21FCC /* mi_primera_pantalla.swift */,
 			);
 			path = mi_primera_app_swiftui;
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBA836642D68DF710041A2C7 /* ContentView.swift in Sources */,
 				FBA836622D68DF710041A2C7 /* mi_primera_app_swiftuiApp.swift in Sources */,
+				FBF15EA42D6CD41B00B21FCC /* mi_primera_pantalla.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
